@@ -1,0 +1,25 @@
+#!/bin/zsh
+
+# close any system preference windows first
+osascript -e 'tell application "System Preferences" to quit'
+
+# become root
+sudo -v
+
+# stay root
+while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+
+####################################
+# System
+
+# Disable the sound effects on boot
+sudo nvram SystemAudioVolume=" "
+
+# Enable Firewall
+sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate on
+
+
+# Iterm2
+
+# Don’t display the annoying prompt when quitting iTerm
+defaults write com.googlecode.iterm2 PromptOnQuit -bool false

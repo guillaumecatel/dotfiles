@@ -1,0 +1,18 @@
+[user]
+	email = hello@guillaumecatel.com
+	name = Guillaume CATEL
+[credential]
+	helper = osxkeychain
+[init]
+	defaultBranch = main
+[color]
+	ui = true
+[pull]
+	rebase = false
+[push]
+	default = matching
+[core]
+  excludesfile = ~/.gitignore
+	quotePath = false
+[commit]
+	template = ~/.gitmessage.txt

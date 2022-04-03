@@ -1,0 +1,24 @@
+{
+  "npm.packageManager": "pnpm",
+  "stylelint.packageManager": "pnpm",
+  "eslint.packageManager": "pnpm",
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "cSpell.words": [
+    "npm",
+    "pnpm",
+    "changesets",
+    "commitlint",
+    "stylelint",
+    "tailwindcss",
+    "multilines",
+    "react",
+    "reactjs",
+    "vite",
+    "vitejs"
+  ],
+}
