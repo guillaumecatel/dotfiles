@@ -1,18 +1,8 @@
 # guillaumecatel/dotfiles
 
-> Macbook Pro dotfiles and setup at Github.
+> 🔧 Dotfiles, including Oh My Zsh, P10K, Brew and .macos.
 
 ## Installation
-
-### iterm2
-
-Install it manually from the [website](https://www.iterm2.com/), start it and add it to the deck.
-
-#### Fonts for ZSH Powerline10k
-
-Download the font files for `https://github.com/romkatv/powerlevel10k#manual-font-installation` from [fonts/](fonts/) and double-click to open them all to follow "Install Font".
-
-Navigate to the iterm2 `Preferences > Profiles > Text > Font` and search for `https://github.com/romkatv/powerlevel10k#manual-font-installation` to select the font. Save and restart iTerm2.
 
 ### Git (XCode)
 
@@ -77,7 +67,6 @@ When Xcode and compilers break, re-install the command line tools.
 sudo rm -rf /Library/Developer/CommandLineTools
 sudo xcode-select --install
 ```
-
 
 ## License
 MIT
