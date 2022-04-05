@@ -1,6 +1,6 @@
-# the title begins with a verb, imperative mode
-# no trailing dot
-component: summarize changes in 50 char or less
+# Use Conventional Commits
+# https://www.conventionalcommits.org/en/v1.0.0/
+<type>[optional scope]: <description>
 
 # Focus on why you are making this change as opposed to how (the code
 # explains that).
