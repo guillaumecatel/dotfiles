@@ -1,3 +1,22 @@
+'use strict'
+
 module.exports = {
-  ...require('@guillaumecatel/prettier-config')
+  singleQuote: true,
+  semi: false,
+  printWidth: 100,
+  tabWidth: 2,
+  trailingComma: 'none',
+  bracketSpacing: true,
+  bracketSameLine: false,
+  jsxSingleQuote: true,
+  arrowParens: 'always',
+  vueIndentScriptAndStyle: true,
+  overrides: [
+    {
+      files: ['*.svg'],
+      options: {
+        parser: 'html'
+      }
+    }
+  ]
 }
